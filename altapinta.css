@@ -1,0 +1,140 @@
+html{
+ scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(img/hl_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(255, 115, 0);
+}
+
+div{
+width: 1200px;
+max-width: 80%;
+margin: 0 auto;
+}
+
+.margen{
+margin-left: 20%;
+margin-right: 20%;
+}
+
+header{
+text-align: center;
+font-size: 35px;
+padding-top: 50px;
+
+}
+
+li{
+    color: rgb(255, 115, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+article{
+background-color: rgb(191, 197, 179);
+margin-top: 15px;
+margin-bottom: 30px;
+border-radius: 10px;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+text-align: left;
+padding: 2%;
+}
+
+footer{
+
+background-color: rgb(191, 197, 179);
+text-align: center;
+color: black;
+padding-top: 60px;
+padding-bottom: 20px;
+border-radius: 10px;
+}
+
+nav li{
+display: inline-block;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+nav a{
+text-decoration: none;
+background-color: rgb(78, 92, 57);
+color: rgb(255, 255, 255);
+padding: 20px;
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: rgb(134, 146, 95);
+    }
+
+.pic{
+    display:block;
+    text-align: center;
+}
+.pic2{
+    display:block;
+    margin-left: 15%;
+}
+
+.centrar {
+display: block;
+margin-left: 0%;
+margin-right:80%;
+}
+.centrar2{
+display: block;
+margin-left: 50%;
+margin-right: 50%;
+}
+
+.celda{
+display: flex;
+gap: 10px;
+}
+.columna{
+    gap: 40px;
+}
+
+.celda2{
+display: flex;
+gap: 160px;
+margin-left: 10%;
+}
+
+.celda3{
+    display: flex;
+    gap: 40px;
+    margin-left: 12%;
+}
+
+.celda4{
+    display: flex;
+    margin-left: 300px;
+    gap: 40px;
+}
+
+@media (max-width: 600px){
+
+nav a{
+
+    padding: 10px;
+    text-align: center;
+}
+
+article{
+text-align: center;
+
+}
+header{
+    font-size: 20px;
+}
+}
